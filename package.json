@@ -1,0 +1,25 @@
+{
+  "name": "@lostinbrittany/qr-esm",
+  "version": "1.0.0",
+  "description": "Version ESM of qr.js",
+  "main": "index.js",
+  "module": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LostInBrittany/qr-esm.git"
+  },
+  "keywords": [
+    "qr",
+    "qr.js",
+    "qrcode"
+  ],
+  "authors": [
+    "Horacio Gonzalez <horacio.gonzalez@gmail.com> - ESM version",    
+    "Kang Seonghoon <kang.seonghoon@mearie.org> - Original library"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LostInBrittany/qr-esm/issues"
+  },
+  "homepage": "https://github.com/LostInBrittany/qr-esm#readme"
+}
