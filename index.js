@@ -77,8 +77,8 @@ var MODE_NUMERIC = 1, MODE_ALPHANUMERIC = 2, MODE_OCTET = 4, MODE_KANJI = 8;
 
 // validation regexps
 var NUMERIC_REGEXP = /^\d*$/;
-var ALPHANUMERIC_REGEXP = /^[A-Za-z0-9 $%*+\-./:]*$/;
-var ALPHANUMERIC_OUT_REGEXP = /^[A-Z0-9 $%*+\-./:]*$/;
+var ALPHANUMERIC_REGEXP = /^[A-Za-z0-9 $%*+\-./:_]*$/;
+var ALPHANUMERIC_OUT_REGEXP = /^[A-Z0-9 $%*+\-./:_]*$/;
 
 // ECC levels (cf. Table 22 in JIS X 0510:2004 p. 45)
 var ECCLEVEL_L = 1, ECCLEVEL_M = 0, ECCLEVEL_Q = 3, ECCLEVEL_H = 2;
